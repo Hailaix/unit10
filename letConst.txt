@@ -1,0 +1,4 @@
+1. The main differences between let and var are that let opperates in a stricter scope than var being tied specifically to the block it is contained within, a variable declared with let cannot be redeclared, and they are not hoisted.
+2. Variables declared with const, similarly to let, are also scoped at the block level, cannot be redeclared and are not hoisted. Additionally const variables cannot be reassigned.
+3. Unlike let variables, const variables cannot be reassigned after declaration.
+4. Hoisting causes variables to act as though they are declared at the beginning of their scope, regardless of when they are actually declared.
